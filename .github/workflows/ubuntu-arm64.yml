@@ -58,7 +58,7 @@ jobs:
 
   notify:
     name: Discord Notification
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: none
     needs: # make sure the notification is sent AFTER the jobs you want included have completed
